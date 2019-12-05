@@ -8,13 +8,13 @@ class School
     @roster = {}
   end 
   
-   def add_student(name, grade)
-    @roster[grade] ||= []
+   def add_student(name, grade)  #should be able to add a student to the school by calling the add_student method and giving it an arg of the students name & grade  
+    @roster[grade] ||= []    
     @roster[grade] << name
   end
 
-  def grade(grade)
-    @roster[grade]
+  def grade(grade)   #takes arg of a grade 
+    @roster[grade]   # returns all the students in that grade 
   end
   
 
