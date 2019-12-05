@@ -5,7 +5,8 @@ class School
   
   def initialize(school_name)
     @school_name=school_name
-    @roster = {}
+    @roster = {}                        #roster should be an empty hash upon initialization but will
+                                       # be built to contain keys of grade levels. 
   end 
   
    def add_student(name, grade)  #should be able to add a student to the school by calling the                                  #add_student method and giving it an arg of the students name & grade
