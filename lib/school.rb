@@ -19,7 +19,7 @@ class School
   
 
   def sort(name)
-   @roster[name].sort 
+   @roster[].sort 
   end  
 end 
 
